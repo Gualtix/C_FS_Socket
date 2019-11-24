@@ -1,0 +1,577 @@
+{
+	"jspartition":
+	[
+		{
+			"header":
+			{
+				"diskname": "D2",
+				"partname": "D2#PRI1",
+				"mount": "vda1"
+			}
+		},
+		{
+			"users":
+			[
+					{
+						"usrid": "D2#PRI1#2",
+						"usrname": "user1",
+						"usrpassword": "user1",
+						"grpid": "D2#PRI1#2",
+						"grpname": "MySql"
+					},
+					{
+						"usrid": "D2#PRI1#3",
+						"usrname": "user2",
+						"usrpassword": "user2",
+						"grpid": "D2#PRI1#3",
+						"grpname": "Oracle"
+					},
+					{
+						"usrid": "D2#PRI1#4",
+						"usrname": "user3",
+						"usrpassword": "user3",
+						"grpid": "D2#PRI1#2",
+						"grpname": "MySql"
+					},
+					{
+						"usrid": "D2#PRI1#5",
+						"usrname": "user4",
+						"usrpassword": "123",
+						"grpid": "D2#PRI1#2",
+						"grpname": "MySql"
+					},
+					{
+						"usrid": "D2#PRI1#6",
+						"usrname": "user5",
+						"usrpassword": "123",
+						"grpid": "D2#PRI1#3",
+						"grpname": "Oracle"
+					},
+					{
+						"usrid": "D2#PRI1#7",
+						"usrname": "user6",
+						"usrpassword": "123",
+						"grpid": "D2#PRI1#2",
+						"grpname": "MySql"
+					}
+			]
+		},
+		{
+			"groups":
+			[
+					{
+						"grpid": "D2#PRI1#2",
+						"grpname": "MySql"
+					},
+					{
+						"grpid": "D2#PRI1#3",
+						"grpname": "Oracle"
+					},
+					{
+						"grpid": "D2#PRI1#4",
+						"grpname": "DB2"
+					}
+			]
+		},
+		{
+			"jstree":
+			[
+				{
+					"id": "D2#PRI1#0",
+					"name": "/",
+					"type": "folder",
+					"txt": null,
+					"owner": "SDisk#SPart#111",
+					"ugo": 777,
+					"fid": null
+				},
+				{
+					"id": "D2#PRI1#1",
+					"name": "users.txt",
+					"type": "file",
+					"txt": "1,g,root2,g,MySql3,g,Oracle4,g,DB21,u,root,root,1232,u,MySql,user1,user13,u,Oracle,user2,user24,u,MySql,user3,user35,u,MySql,user4,1236,u,Oracle,user5,1237,u,MySql,user6,123",
+					"owner": "SDisk#SPart#111",
+					"ugo": 664,
+					"fid": "D2#PRI1#0"
+				},
+				{
+					"id": "D2#PRI1#2",
+					"name": "home",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#0"
+				},
+				{
+					"id": "D2#PRI1#3",
+					"name": "archivos",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#2"
+				},
+				{
+					"id": "D2#PRI1#4",
+					"name": "mia",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#3"
+				},
+				{
+					"id": "D2#PRI1#5",
+					"name": "fase2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#4"
+				},
+				{
+					"id": "D2#PRI1#17",
+					"name": "a1",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#18",
+					"name": "a2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#19",
+					"name": "a3",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#20",
+					"name": "a4",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#21",
+					"name": "a5",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#22",
+					"name": "a6",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#23",
+					"name": "a7",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#24",
+					"name": "a8",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#25",
+					"name": "a9",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#26",
+					"name": "a10",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#27",
+					"name": "a11",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#28",
+					"name": "a12",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#29",
+					"name": "a13",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#30",
+					"name": "a14",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#31",
+					"name": "a15",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#32",
+					"name": "a16",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#33",
+					"name": "a17",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#34",
+					"name": "a18",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#35",
+					"name": "a19",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#36",
+					"name": "a20",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#37",
+					"name": "a21",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#38",
+					"name": "a22",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#39",
+					"name": "a23",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#40",
+					"name": "a24",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#41",
+					"name": "a25",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#42",
+					"name": "archivito",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#5"
+				},
+				{
+					"id": "D2#PRI1#43",
+					"name": "a.txt",
+					"type": "file",
+					"txt": "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678",
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#42"
+				},
+				{
+					"id": "D2#PRI1#6",
+					"name": "carpeta2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#4"
+				},
+				{
+					"id": "D2#PRI1#7",
+					"name": "a1",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#8",
+					"name": "a2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#9",
+					"name": "a3",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#10",
+					"name": "a4",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#11",
+					"name": "a5",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#12",
+					"name": "a6",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#13",
+					"name": "a7",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#14",
+					"name": "a8",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#15",
+					"name": "a9",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#16",
+					"name": "a10",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#45",
+					"name": "b1",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#46",
+					"name": "b2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#47",
+					"name": "b3",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#48",
+					"name": "b4",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#49",
+					"name": "b5",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#50",
+					"name": "b6",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#51",
+					"name": "b7",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#52",
+					"name": "b8",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#53",
+					"name": "b9",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#54",
+					"name": "b10",
+					"type": "folder",
+					"txt": null,
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#6"
+				},
+				{
+					"id": "D2#PRI1#44",
+					"name": "b.txt",
+					"type": "file",
+					"txt": "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678",
+					"owner": "D2#PRI1#2",
+					"ugo": 664,
+					"fid": "D2#PRI1#2"
+				},
+			]
+		}
+	]
+}

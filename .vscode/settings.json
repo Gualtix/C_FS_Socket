@@ -1,0 +1,83 @@
+{
+    "files.associations": {
+        "codeanalitics.h": "c",
+        "helper.h": "c",
+        "string.h": "c",
+        "mkdisk.h": "c",
+        "stringhandler.h": "c",
+        "fdisk.h": "c",
+        "tabletyperep.h": "c",
+        "c_graphviz.h": "c",
+        "analizer.h": "c",
+        "validate.h": "c",
+        "container.h": "c",
+        "ctype.h": "c",
+        "f2_do.h": "c",
+        "glovs.h": "c",
+        "f1_rep.h": "c",
+        "f1_do.h": "c",
+        "container2.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "doublygenericlist.h": "c",
+        "f2_rep.h": "c",
+        "types.h": "c",
+        "belong.h": "c",
+        "typeinfo": "c"
+    },
+    "workbench.colorCustomizations": {
+        //"activityBar.background": "#06011b",
+         //"editorIndentGuide.background": "#32353E",
+         //"sideBar.background": "#0a0422",
+         //"tab.inactiveBackground": "#32353E"
+         "editor.background": "#00071c"
+     },
+     "editor.tokenColorCustomizations": {
+         "functions": "#fd9800",
+         "keywords": "#FF0046",
+         "variables": "#00fe5a",
+         "types": "#9e14ff",
+         "strings": "#0997f5",
+         "comments": "#99f800",
+ 
+             "textMateRules": [
+                 {
+                     
+                     "scope": "meta.function-call",
+                     
+                     "settings": {
+                         "foreground": "#fec80d"
+                     }
+                 
+                 },
+                 {
+                     "scope": "variable.other",
+                     
+                     "settings": {
+                         "foreground": "#00fe5a"
+                     }
+                 },
+                 {
+                     "scope": "constant.numeric",
+                     
+                     "settings": {
+                         "foreground": "#ff0000"
+                     }
+                 },
+                 {
+                     "scope": "keyword.operator",
+                     
+                     "settings": {
+                         "foreground": "#0dfec8"
+                     }
+                 },
+                 {
+                    "scope": "meta.block",
+                    
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                }
+             ]
+     }
+}

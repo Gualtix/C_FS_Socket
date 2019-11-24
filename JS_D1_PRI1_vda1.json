@@ -1,0 +1,277 @@
+{
+	"jspartition":
+	[
+		{
+			"header":
+			{
+				"diskname": "D1",
+				"partname": "D1#PRI1",
+				"mount": "vda1"
+			}
+		},
+		{
+			"users":
+			[
+					{
+						"usrid": "D1#PRI1#2",
+						"usrname": "user1",
+						"usrpassword": "user1",
+						"grpid": "D1#PRI1#2",
+						"grpname": "MySql"
+					},
+					{
+						"usrid": "D1#PRI1#3",
+						"usrname": "user2",
+						"usrpassword": "user2",
+						"grpid": "D1#PRI1#3",
+						"grpname": "Oracle"
+					},
+					{
+						"usrid": "D1#PRI1#4",
+						"usrname": "user3",
+						"usrpassword": "user3",
+						"grpid": "D1#PRI1#2",
+						"grpname": "MySql"
+					}
+			]
+		},
+		{
+			"groups":
+			[
+					{
+						"grpid": "D1#PRI1#2",
+						"grpname": "MySql"
+					},
+					{
+						"grpid": "D1#PRI1#3",
+						"grpname": "Oracle"
+					},
+					{
+						"grpid": "D1#PRI1#4",
+						"grpname": "DB2"
+					}
+			]
+		},
+		{
+			"jstree":
+			[
+				{
+					"id": "D1#PRI1#0",
+					"name": "/",
+					"type": "folder",
+					"txt": null,
+					"owner": "SDisk#SPart#111",
+					"ugo": 777,
+					"fid": null
+				},
+				{
+					"id": "D1#PRI1#1",
+					"name": "users.txt",
+					"type": "file",
+					"txt": "1,g,root2,g,MySql3,g,Oracle4,g,DB21,u,root,root,1232,u,MySql,user1,user13,u,Oracle,user2,user24,u,MySql,user3,user3",
+					"owner": "SDisk#SPart#111",
+					"ugo": 664,
+					"fid": "D1#PRI1#0"
+				},
+				{
+					"id": "D1#PRI1#2",
+					"name": "home",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#0"
+				},
+				{
+					"id": "D1#PRI1#3",
+					"name": "archivos",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#2"
+				},
+				{
+					"id": "D1#PRI1#4",
+					"name": "mia",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#3"
+				},
+				{
+					"id": "D1#PRI1#5",
+					"name": "fase2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#4"
+				},
+				{
+					"id": "D1#PRI1#17",
+					"name": "nerf",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#5"
+				},
+				{
+					"id": "D1#PRI1#18",
+					"name": "unos.txt",
+					"type": "file",
+					"txt": "UNO_UNO_UNO_UNO_UNO_UNO_UNO_UNO_UNO_UNO_UNO_UN",
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#17"
+				},
+				{
+					"id": "D1#PRI1#19",
+					"name": "archivito",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#5"
+				},
+				{
+					"id": "D1#PRI1#20",
+					"name": "doses.txt",
+					"type": "file",
+					"txt": "DOS_DOS_DOS_DOS_DOS_DOS_DOS_DOS_DOS_DOS_DOS_DO",
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#19"
+				},
+				{
+					"id": "D1#PRI1#6",
+					"name": "carpeta2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#4"
+				},
+				{
+					"id": "D1#PRI1#7",
+					"name": "a1",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#8",
+					"name": "a2",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#9",
+					"name": "a3",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#10",
+					"name": "a4",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#11",
+					"name": "a5",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#12",
+					"name": "a6",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#13",
+					"name": "a7",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#14",
+					"name": "a8",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#15",
+					"name": "a9",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#16",
+					"name": "a10",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#2",
+					"ugo": 664,
+					"fid": "D1#PRI1#6"
+				},
+				{
+					"id": "D1#PRI1#21",
+					"name": "tres.txt",
+					"type": "file",
+					"txt": "01234567890123",
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#2"
+				},
+				{
+					"id": "D1#PRI1#22",
+					"name": "cuad",
+					"type": "folder",
+					"txt": null,
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#2"
+				},
+				{
+					"id": "D1#PRI1#23",
+					"name": "cuatro.txt",
+					"type": "file",
+					"txt": "012345678901234567890123",
+					"owner": "D1#PRI1#3",
+					"ugo": 664,
+					"fid": "D1#PRI1#22"
+				},
+			]
+		}
+	]
+}
